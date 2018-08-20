@@ -1,2 +1,3 @@
 # springcloudpractice
-关于springcloud的练习项目集合
+关于springcloud的练习项目集合里面的第一个项目
+关于动态修改配置文件里面的值得项目。
