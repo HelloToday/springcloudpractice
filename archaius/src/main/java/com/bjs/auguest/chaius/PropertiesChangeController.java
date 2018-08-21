@@ -1,5 +1,8 @@
 package com.bjs.auguest.chaius;
 
+import java.util.Properties;
+
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,4 +17,5 @@ public class PropertiesChangeController {
 		DynamicLongProperty timeToWait = DynamicPropertyFactory.getInstance().getLongProperty("lock.waitTime", 1000);
 		return timeToWait.getName()+":"+timeToWait.getValue();
 	}
+	
 }
