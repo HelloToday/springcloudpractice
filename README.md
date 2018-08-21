@@ -1,2 +1,3 @@
 # springcloudpractice
 关于springcloud的练习项目集合
+1.注意这个属性是从命令行里面设置的，那么有没有能从系统里面设置的呢？
